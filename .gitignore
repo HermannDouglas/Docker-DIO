@@ -1,0 +1,17 @@
+# Ignore Apache related files
+logs/
+*.log
+httpd.conf
+*.pid
+*.pid.lock
+*.lock
+
+# Ignore JavaScript related files
+node_modules/
+npm-debug.log
+yarn-error.log
+.DS_Store
+/build/
+dist/
+*.env
+
