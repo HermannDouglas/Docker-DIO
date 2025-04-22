@@ -3,9 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Docker</title>
+    <title>Salvar Links</title>
+    <link rel="stylesheet" href="css/styles.css"> <!-- Caminho para o CSS -->
 </head>
 <body>
-    <h1>Hello World!</h1>
+    <h1>Salvar Links</h1>
+    <form id="linkForm">
+        <input type="text" id="siteName" placeholder="Nome do site" required>
+        <input type="url" id="siteUrl" placeholder="URL do site" required>
+        <button type="submit">Salvar</button>
+    </form>
+    <h2>Links Salvos:</h2>
+    <ul id="linksList"></ul>
+
+    <script src="js/script.js"></script> <!-- Caminho para o JavaScript -->
 </body>
 </html>
